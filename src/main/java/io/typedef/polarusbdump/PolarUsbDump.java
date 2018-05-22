@@ -19,7 +19,7 @@ import java.nio.file.Paths;
 public class PolarUsbDump {
 
     private final static int POLAR_VENDOR_ID = 0x0da4;
-    private final static int POLAR_PRODUCT_ID = 0x0008;
+    private final static int POLAR_PRODUCT_ID = 0x0009;
 
     public static void main(String[] args) throws IOException {
         ClassPathLibraryLoader.loadNativeHIDLibrary();
